@@ -1,0 +1,121 @@
+/* style="background-color: #f0f8ff; font-family: 'Lora', serif;" */
+/* style="font-family: 'Playfair Display', serif; font-weight: bold; color: #2c3e50;" */
+/*style="font-size: 1.5rem; font-family: 'Lora', serif; color: #34495e;"*/
+/*style="background-color: #3498db; border: none; font-family: 'Montserrat', sans-serif;"*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white !important;
+}
+
+.navigator {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    /* overflow-x: hidden; */
+    background:linear-gradient(to right,rgb(30, 148, 232),rgb(37, 176, 158)) !important;
+    /* padding: 10px 0 ; */
+    z-index: 1000;
+}
+
+.collage img{
+    width: 500px;
+    height: 500px;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.message p span{
+    font-size:27px;
+    font-weight: 700;
+}
+
+.cardstyle{
+    width: 18rem;
+}
+
+.cardstyle:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contentcard{
+    background:linear-gradient(to right,#ff6a88,#ffab4c) ;
+}
+
+.content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralize{
+    text-align: center;
+}
+
+.footercolor{
+    width: 100vw;
+    background-color: rgb(15, 15, 15);
+}
+
+.navcolor{
+    color: black;
+}
+
+.iconcolor{
+    color: aliceblue;
+}
+
+.textstyle{
+    color: aliceblue !important;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+svg:hover{
+    color: rgb(0, 255, 221) !important;
+}
+
+.end{
+    width: 100vw;
+    background-color: rgb(240, 239, 239);
+}
+
+.end h1{
+    font-size: 18px;
+    font-weight: 625;
+}
+
+p{
+    font-size: 12px;
+}
+
+.textcolor{
+    color: black;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.interstyle {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.parent{
+    width: 100vw;
+}

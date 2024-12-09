@@ -1,0 +1,46 @@
+body{
+    background-color: aliceblue;
+}
+
+.content {
+    flex: 1;
+}
+
+.backgroundstyle{
+    background:linear-gradient(to right,#FF758C,#FF7E00);
+}
+
+.profilepic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilepic img{
+    width: 250px;
+    height: 250px;
+}
+
+.textcolor h1{
+    color: white;
+    font-weight: 400;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footercolor{
+    background-color: rgb(15, 15, 15);
+}
+
+svg:hover{
+    color: rgb(255, 42, 0);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
